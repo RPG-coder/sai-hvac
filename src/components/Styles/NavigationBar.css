@@ -1,0 +1,62 @@
+nav{
+    width: 100%;
+    background-color: whitesmoke;
+    position: fixed;
+    z-index: 999;
+    -webkit-box-shadow: 8px 9px 14px -3px rgba(0,0,0,0.25);
+    -moz-box-shadow: 8px 9px 14px -3px rgba(0,0,0,0.25);
+    box-shadow: 8px 9px 14px -3px rgba(0,0,0,0.25);
+}
+.nav-toggle{
+    background-color: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.nav-links{
+    float: right;
+}
+.nav-links>li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 2.5px;
+}
+.nav-links>li>a{
+    text-decoration: none;
+    color: black;
+}
+.nav-links>li>a:hover{
+    text-decoration: underline;
+}
+
+.nav-booknow-btn{
+    background-color: rgb(210, 255, 87);
+    border: 1px solid transparent;
+    padding: 11px 30px
+}
+.nav-links>li>a.nav-booknow-btn:hover{
+    text-decoration: none;
+    background-color: rgb(32, 67, 69);
+    color: white;
+    border: 1px solid rgb(133, 154, 0);
+}
+
+nav img{
+    height: 50px;
+    width: auto;
+}
+nav h1{
+    display: inline-block;
+    font-size: 120%;
+}
+
+@media only screen and (max-width: 767px){
+    nav.open .navlinks.display-md-none{
+        display: block;
+    }
+    nav.open .navlinks li{
+        display: block;
+    }
+    nav.open .nav-links {
+        float: left;
+    }
+}

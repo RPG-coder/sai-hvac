@@ -1,0 +1,142 @@
+
+
+{
+    "licence": [
+        "Copyright 2022 Rahul Gautham Putcha",
+        "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
+        "1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.",
+        "2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.",
+        "3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.",
+        "4. Donot remove the backlinks to commercial website of SAI HVAC present within the index.html document.",
+        "5. Donot remove the licence key-value from the content.json document.",
+        "THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 'AS IS' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+    ],  
+     
+    "logoImgPath": "../logo.png",
+    "bookingAPILink": "https://rahulgputcha.live/saihvac/book.php",
+
+    "navigationLinks": {
+        "home": [{
+            "name": "Home",
+            "link": "#home"
+        },{
+            "name": "Services",
+            "link": "#services"
+        },{
+            "name": "Service Regions",
+            "link": "#availability"
+        }],
+        
+        "external": [{
+            "name": "About",
+            "link": "/about"
+        }]
+    },
+
+
+
+    "slides": [{
+        "img": "",
+        "title": "SaiHVAC",
+        "subtitle": ["Your next generation Heating and Cooling services"],
+        "align": "left",
+        "buttonSettings": {
+            "isButtonPresent": true,
+            "text": "Book now",
+            "link": "#book"
+        }
+    },{
+        "img": "",
+        "title": "Want to know what services we offer?",
+        "subtitle": [
+            "We provide a range of services to our customer. Starting with the fresh intallation or working with replacement on Residential HVAC, Air conditioning and Furnace Service to Air Quality for indoor services like Air/Furnace filter, UV air purifiers and Humidifiers. ", 
+            "Ductworks are only limited to duct repair & sealing only."
+        ],
+        "align": "center",
+        "buttonSettings": {
+            "isButtonPresent": true,
+            "text": "Know more",
+            "link": "#services"
+        }
+    },{
+        "img": "",
+        "title": "Check if we are available for your region?",
+        "subtitle": [
+            "We are continuously expanding our business. At the current moment, we are only able serve to our happy customers located at a reachable distance. Therefore, we encourage our new customer to check our service availability."
+        ],
+        "align": "right",
+        "buttonSettings": {
+            "isButtonPresent": true,
+            "text": "Check Availability",
+            "link": "#availability"
+        }
+    }],
+
+
+
+    "services": [{
+        "pathname": "residential",
+        "title": "Residential HVAC",
+        "description": [
+            "Lorem ipsum for Residential HVAC dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            " Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        ],
+        "subservices": ["HVAC Fresh Installation","HVAC Installation with Replacement"]
+    },{
+        "pathname": "ac",
+        "title": "Air Conditioning Services",
+        "description": [
+            "Lorem ipsum AC Servicesdolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+            "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        ],
+        "subservices": ["AC Repairs","AC Installation", "AC Maintenance"]
+    },{
+        "pathname": "furnace",
+        "title": "Furnace Services",
+        "description": ["Lorem ipsum for Furnace Services dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."],
+        "subservices": ["Furnace Installation","Furnace Repair", "Furnace Maintenance"]
+    },{
+        "pathname": "air-quality",
+        "title": "Air Quality Indoor",
+        "description": ["Lorem ipsum for AQ Indoor dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."],
+        "subservices": ["Air Filters", "Furnace Filters", "UV Air Purifier", "Humidifiers"]
+    },{
+        "pathname": "ductwork",
+        "title": "Ductwork (Limited service)",
+        "description": ["Lorem ipsum for Ductwork dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."],
+        "subservices": ["Ductwork Repairs", "Ductwork Sealing"]
+    }],
+
+
+    "baseLocation": {
+        "title": "SaiHVAC Main base",
+        "latLong": {
+            "lat": 40.510830, 
+            "lng": -74.394620
+        },
+        "radius": 20000
+    },
+
+    "availability": {
+        "title": "Coverage Regions",
+        "regions": [
+            "Edison", "New Brunswick", "East Brunswick", "North Brunswick", "Old Bridge", 
+            "Dunellen", "Sayreville" ,"South Plainfield", "Piscataway", "Highland park", 
+            "Metuchen", "Woodbridge", "Perth Amboy", "South Amboy", "South River", "Milltown",
+            "Spotswood", "Helmetta"
+        ]
+    }, 
+    
+    "contacts": {
+        "phone": "(732) XXX-xxxx",
+        "email": "info@saihvac.tech",
+        "timing": [{
+            "days": "Mon-Fri",
+            "time": "9am-7pm"
+        },{
+            "days": "Sat-Sun",
+            "time": "9am-2pm"
+        }]
+    }
+}

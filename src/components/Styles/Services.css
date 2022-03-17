@@ -1,0 +1,57 @@
+#services h2{
+    font-size: 175%;
+}
+.service-tabs{
+    list-style: none;
+}
+.service-tabs li{
+    padding: 0 30px;
+}
+
+.service-tabs li>button{
+    width: 100%;
+    padding: 20px;
+    outline: none;
+    border: none;
+    -webkit-box-shadow: 8px 0px 14px -3px rgba(0,0,0,0.25);
+    -moz-box-shadow: 8px 0px 14px -3px rgba(0,0,0,0.25);
+    box-shadow: 8px 0px 14px -3px rgba(0,0,0,0.25);
+    background-color: rgb(231, 248, 246);
+}
+.service-tabs li>button:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 767px){
+    .service-tabs{
+        overflow-x: scroll;
+        white-space: nowrap;
+        margin: 10px;
+        padding-bottom: 5px;
+    }
+    .service-tabs li{
+        display: inline-block;
+        padding:0
+    }
+    .service-tabs li>button:hover{
+        text-decoration: none;
+        background-color: black;
+        color: white;
+    }
+    .service-tabs::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        background-color: #F5F5F5;
+    }
+    .service-tabs::-webkit-scrollbar {
+        width: 5px;
+        background-color: #F5F5F5;
+    }
+    .service-tabs::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+        background-color: #666666;
+    }
+}

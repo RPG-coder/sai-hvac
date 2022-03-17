@@ -1,0 +1,53 @@
+#testimonial{
+    background: #6e78a5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6e78a5, #3cbfa7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6e78a5, #3cbfa7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+#testimonial{
+    color: white;
+}
+#testimonial img{
+    height: 200px;
+    width: 200px;
+    background-color: whitesmoke;
+    padding: 2px;
+    border-radius: 5px;
+}
+#testimonial q{
+    font-size: 250%;
+}
+#testimonial h3{
+    display: inline-block;
+}
+#testimonial .slide-caption{
+    top:5%;
+}
+#testimonial .slide-item{
+    height: 45vh;
+    width: 100%;
+}
+@media only screen and (max-width:1400px){
+    #testimonial .slide-item{
+        height: 600px;
+        width: 100%;
+    }
+
+    .customer{
+        height: fit-content;
+    }
+    .review{
+        height: -webkit-fill-available;
+    }
+}
+
+@media only screen and (max-width:767px){
+    #testimonial .slide-item{
+        height: 550px;
+        width: 100%;
+    }
+    #testimonial h2{
+        text-align: center;
+    }
+}
+
